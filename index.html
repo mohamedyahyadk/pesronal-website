@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mohamed yahya</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style></style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header container">
+      <div class="burger-menu">
+        <span class="burger-menu__bar"></span>
+        <span class="burger-menu__bar"></span>
+        <span class="burger-menu__bar"></span>
+      </div>
+      <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li><a class="navigation__link" href="#bio">Bio</a></li>
+          <li><a class="navigation__link" href="#skills">Skills</a></li>
+          <li><a class="navigation__link" href="#projects">Projects</a></li>
+          <li><a class="navigation__link" href="#clients">Clients</a></li>
+          <li><a class="navigation__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <span class="toggle__title">Dark Mode</span>
+        <input type="checkbox" id="theme-toggle" class="toggle__checkbox" />
+        <label for="theme-toggle" class="toggle__label"></label>
+      </div>
+    </header>
+
+    <!-- Bio Section -->
+    <section id="bio" class="bio container">
+      <img src="images/p1.jpeg" alt="Profile Picture" class="bio__pic" />
+      <h1 class="bio__heading">
+        Hello, I'm <span class="bio__name">Mohamed yahya cheikh</span>
+      </h1>
+      <p>
+        I'm a Web Developer & Designer with a passion for creating beautiful and
+        functional websites.
+      </p>
+      <a href="#contact" class="bio__links">Get in Touch</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <div class="skills__filters">
+        <button class="skills__button">All</button>
+        <button class="skills__button">Web Development</button>
+        <button class="skills__button">Design</button>
+        <button class="skills__button">Others</button>
+      </div>
+      <div class="skills__list">
+        <div class="skills__column">
+          <h3>HTML & CSS</h3>
+          <div class="skills__years"></div>
+        </div>
+        <div class="skills__column">
+          <h3>JavaScript</h3>
+          <div class="skills__years"></div>
+        </div>
+        <div class="skills__column">
+          <h3>React.js</h3>
+          <div class="skills__years"></div>
+        </div>
+        <div class="skills__column">
+          <h3>bootstrap</h3>
+          <div class="skills__years"></div>
+        </div>
+        <!-- Add more skills as needed -->
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- <section id="projects" class="projects container">
+      <h2>Projects</h2>
+      <div class="projects__main">
+        <img src="project1.jpg" alt="Project 1" class="projects__img" />
+        <img src="project2.jpg" alt="Project 2" class="projects__img" />
+        <img src="project3.jpg" alt="Project 3" class="projects__img" />
+        <img src="project3.jpg" alt="Project 3" class="projects__img" />
+        <!-- Add more projects as needed -->
+      </div>
+    </section> -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients container">
+      <h2>Clients & Testimonials</h2>
+      <div class="clients__opinions">
+        <div class="clients__opinion">
+          <p>
+            "Mohamed's work is top-notch. He delivered exactly what we needed!"
+          </p>
+        </div>
+        <div class="clients__opinion">
+          <p>"Great attention to detail and excellent communication."</p>
+        </div>
+        <!-- Add more testimonials as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+      <h2>Contact Me</h2>
+      <form class="contact__formContent">
+        <div class="contact__inputs">
+          <input type="text" class="contact__input" placeholder="Your Name" />
+          <input type="email" class="contact__input" placeholder="Your Email" />
+          <textarea
+            class="contact__input"
+            placeholder="Your Message"
+          ></textarea>
+        </div>
+        <button type="submit" class="contact__button">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Mohamed yahya cheikh. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Theme Toggle -->
+    <script src="script.js"></script>
+  </body>
+</html>
